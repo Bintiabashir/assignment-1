@@ -1,18 +1,31 @@
+body {
+    margin: 0;
+
+}
+
 .donate-now {
     text-align: center;
-    background-image: url(./images/donation9.jpg);
+    background-image: url(./images/flood.jpg);
     background-size: cover;
     background-position: center;
     height: 670px;
     color: white;
     margin-bottom: 113px;
 
+
 }
 
 .help-people {
     position: absolute;
-    top: 15%;
+    top: 29%;
     padding-left: 15%;
+    padding-right: 10%;
+
+
+}
+
+.help-people p {
+    padding-left: 10%;
     padding-right: 10%;
 
 }
@@ -29,6 +42,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+
 }
 
 h1 {
@@ -39,16 +53,41 @@ h1 {
     display: inline-block;
     background-color: rgba(245, 241, 241, 0.623);
 
-    height: 90px;
-    padding-left: 55px;
-    padding-right: 55px;
+
+    padding: 30px 20px;
+
     margin-top: 10px;
-    padding-top: 50px;
+    color: dimgray;
     border-radius: 5px;
     font-size: 25px;
+    margin-right: 1%;
+    margin-left: 1%;
+
 
 
 }
+
+.amount {
+    margin-left: 15%;
+}
+
+.donate-today {
+    margin-bottom: 113px;
+
+}
+
+.amount-taka {
+    color: gray;
+    font-weight: 550;
+    text-align: center;
+}
+
+.amount-taka hr {
+    width: 70%;
+    margin-left: 15%;
+
+}
+
 
 .support {
     text-align: center;
@@ -58,7 +97,8 @@ h1 {
 
 .support p {
     color: dimgray;
-
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 h2 {
@@ -67,21 +107,12 @@ h2 {
 
 #red {
     color: crimson;
-    border: 5px solid crimson;
+    border: 2px solid crimson;
     background-color: rgba(243, 209, 216, 0.897);
 
 
 }
 
-.donate-today {
-    margin-bottom: 113px;
-}
-
-.amount-taka {
-    color: gray;
-    font-weight: 550;
-    text-align: center;
-}
 
 .flexible-container {
     display: flex;
@@ -90,10 +121,16 @@ h2 {
 
 .benefits {
     width: 25%;
-    padding: 5% 3% 1% 2%;
-    height: 320px;
-    margin-left: 5%;
+    padding: 3% 3% 1% 2%;
+
+    margin-left: 3%;
     font-size: small;
+    box-shadow: 10px 5px 10px gray;
+
+}
+
+.benefits p {
+    color: dimgray;
 }
 
 #food {
@@ -106,4 +143,21 @@ h2 {
 
 #education {
     background-color: rgba(255, 235, 205, 0.61)
+}
+
+
+#humble {
+    font-family: 'Lobster', cursive;
+    color: rgb(209, 79, 79);
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.foot {
+    text-align: center;
+    background-color: black;
+    color: lightgray;
+    font-size: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
