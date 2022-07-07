@@ -1,0 +1,35 @@
+.donate-now {
+    text-align: center;
+    background-image: url(./images/donation9.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    color: white;
+
+}
+
+.help-people {
+    position: absolute;
+    top: 20%;
+    padding-left: 15%;
+    padding-right: 10%;
+
+}
+
+.link-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(tomato, salmon);
+    color: white;
+    font-weight: 700;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-size: 50px;
+}
