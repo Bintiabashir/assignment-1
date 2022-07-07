@@ -97,8 +97,8 @@ h1 {
 
 .support p {
     color: dimgray;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 12%;
+    padding-right: 12%;
 }
 
 h2 {
@@ -145,6 +145,50 @@ h2 {
     background-color: rgba(255, 235, 205, 0.61)
 }
 
+.donate-plan {
+    margin-bottom: 117px;
+}
+
+.container {
+    width: 55%;
+    padding: 5% 7%;
+    margin: 3%;
+    margin-left: 25%;
+    display: flex;
+    color: dimgray;
+    box-sizing: border-box;
+    background-color: rgba(253, 233, 209, 0.822);
+
+
+}
+
+input[type=submit] {
+    background-color: rgb(247, 81, 114);
+    color: white;
+    border: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+input[type=email] {
+    background-color: rgb(209, 198, 200);
+    color: white;
+    border: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+input[type=email]:hover {
+    opacity: 0.8;
+}
+
+.extra-part {
+    margin-bottom: 113px;
+}
 
 #humble {
     font-family: 'Lobster', cursive;
