@@ -3,14 +3,15 @@
     background-image: url(./images/donation9.jpg);
     background-size: cover;
     background-position: center;
-    height: 550px;
+    height: 670px;
     color: white;
+    margin-bottom: 113px;
 
 }
 
 .help-people {
     position: absolute;
-    top: 20%;
+    top: 15%;
     padding-left: 15%;
     padding-right: 10%;
 
@@ -20,7 +21,7 @@
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
-    background-image: linear-gradient(tomato, salmon);
+    background-image: linear-gradient(tomato, crimson);
     color: white;
     font-weight: 700;
 }
@@ -30,6 +31,79 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-h2 {
+h1 {
     font-size: 50px;
+}
+
+.amount li {
+    display: inline-block;
+    background-color: rgba(245, 241, 241, 0.623);
+
+    height: 90px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-top: 10px;
+    padding-top: 50px;
+    border-radius: 5px;
+    font-size: 25px;
+
+
+}
+
+.support {
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 100px;
+}
+
+.support p {
+    color: dimgray;
+
+}
+
+h2 {
+    font-size: 30px;
+}
+
+#red {
+    color: crimson;
+    border: 5px solid crimson;
+    background-color: rgba(243, 209, 216, 0.897);
+
+
+}
+
+.donate-today {
+    margin-bottom: 113px;
+}
+
+.amount-taka {
+    color: gray;
+    font-weight: 550;
+    text-align: center;
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 113px;
+}
+
+.benefits {
+    width: 25%;
+    padding: 5% 3% 1% 2%;
+    height: 320px;
+    margin-left: 5%;
+    font-size: small;
+}
+
+#food {
+    background-color: rgba(213, 247, 252, 0.507);
+}
+
+#shelter {
+    background-color: rgba(247, 220, 230, 0.404);
+}
+
+#education {
+    background-color: rgba(255, 235, 205, 0.61)
 }
